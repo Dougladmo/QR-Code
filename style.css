@@ -122,7 +122,11 @@ body {
   }
   .container {
     max-width: 340px;
-    height: 300px;
+    height: 275px;
     width: 100%;
+  }
+  
+  #qr-form {
+    padding-bottom: 10px;
   }
 }
