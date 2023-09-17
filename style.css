@@ -116,9 +116,20 @@ body {
   opacity: 1;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 940px) {
+  body {
+    background-image: url(img/bg-mobile.jpg);
+  }
   .container {
+    background: rgb(255, 255, 255);
     max-width: 340px;
+    height: 275px;
     width: 100%;
+  }
+  .container h1 {
+    color: #000;
+  }
+  #qr-header p {
+    color: #777;
   }
 }
